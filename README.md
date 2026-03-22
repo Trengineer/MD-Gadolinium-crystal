@@ -6,7 +6,7 @@ To run the code properly, start by installing `requirements.txt` by
 ```bash
 pip install -r requirements.txt
 ```
-In the your virtual environment.
+In your virtual environment.
 
 The files `sim.py` and `sim_fast.py` perform the exact same task. however, `sim_fast.py` utilizes a precomputed 
 neighbor list for all atoms, this significantly reduces compute time and yields similar results as `sim.py`, therefore `sim_fast.py` is used in all other files in the project. ´sim_fast.py´ is also the point of entry in the project and performs the first task by calculating the auto correlation and the correlation time. Run it by
